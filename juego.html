@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentacion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+      <header class="color1">
+            <div class="container-fluid color1">
+                <nav class="navbar navbar-expand-lg  navbar-dark">
+                    <a href="./index.html" class="navbar-brand"><p class ="h1 fonte text-white">NESTOR CAMILO</p></a>
+                  <button class="navbar-toggler"  type="button" data-bs-target="#menu" data-bs-toggle="collapse" aria-controls="menu" aria-expanded="false" aria-label="toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="menu">
+                    
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item-active"><a href="./juego.html" class="nav-link" ><p class=" h5 text-white fonte ">JUEGO</p></a></li>
+                   </ul>
+                 </div>
+                </nav>
+            </div>
+                <section class="seccion1">
+                    <P class="h1 abs-center text-white">Conozcamos un poco más de ti</P>
+                 </section>
+            <div class="wave" style="height: 150px; overflow: hidden;" ><svg class="color1"viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffffff;"></path></svg></div>
+      </header>
+         <div class="contenedor row">
+             <div class="col-12  col-sm-12 col-md-12 col-lg-12 col-xxl-6 col-xxl-6  col-fluid-6 p-4">
+                <p class="h1" style="color: #00a2ff;">JUEGO</p>
+                <P class="h4">El juego es sencillo de acuerdo a un número que ingresen del 1 al 20 se les hará una pregunta, ya sean de sus gustos y otras cosas, estas preguntas las responden para conocernos mejor.</P>
+                    <form action="">
+                         <input type="text" placeholder="ingrese un numero" class="form-control" id="numero"><br>
+                          <input type="button" class="form-control btn btn-primary" value="Enviar" id="ingresoN">
+                    </form>
+             </div>
+             <div class="col-12  col-sm-12 col-md-12 col-lg-12 col-xxl-6 col-xxl-6  col-fluid-6 p-4">
+                <p class="h1 text-primary">PREGUNTA</p>
+                <p class="h3" id="texto"></p>
+             </div>
+         </div>
+        
+</body>
+ <script src="juego.js"></script>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</html>
